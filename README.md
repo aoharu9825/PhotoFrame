@@ -5,8 +5,8 @@
 
 ## Usage
 
-### アプリのインストール方法
-パッケージ化に必要なファイル・ディレクトリをXXXディレクトリに入れた時に、パッケージ化をするためのコマンドを以下に示します。
+### アプリを使う方法
+パッケージ化に必要なファイル・ディレクトリをXXXディレクトリに入れた時に、パッケージ化をするためのコマンドを以下に示します。  
 `npm i electron-packager --save-dev`  
 `electron-packager XXXへのパス PhotoFrame --platform=darwin --arch=x64 --electronVersion=1.4.13`
 
