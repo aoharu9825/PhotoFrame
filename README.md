@@ -6,7 +6,8 @@
 ## Usage
 
 ### アプリを使う方法
-パッケージ化に必要なファイル・ディレクトリをXXXディレクトリに入れた時に、パッケージ化をするためのコマンドを以下に示します。  
+パッケージ化に必要なファイル・ディレクトリ(`index.js`,`settings.js`,`index.html`,`settings.html`,`data.html`,
+`styles.css`,`PhotoFrame_pic`,`package.json`)をXXXディレクトリに入れた時に、パッケージ化するためのコマンドを以下に示します。  
 `npm i electron-packager --save-dev`  
 `electron-packager XXXへのパス PhotoFrame --platform=darwin --arch=x64 --electronVersion=1.4.13`
 
