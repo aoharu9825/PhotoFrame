@@ -1,0 +1,48 @@
+.main{
+  width: 400px;
+  margin: 0 auto;
+}
+
+#picture{
+  display:block;
+  margin: 0 auto;
+}
+
+#sentence{
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul{
+  padding-left: 0px;
+  padding-top: 5px;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+li{
+  list-style: none;
+  display: block;
+  margin-left: 5px;
+}
+
+#play, #pause{
+  width: 100px;
+  text-align: center;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.hidden{
+  display: none;
+}
+
+.warning{
+  line-height: 100px;
+  font-size: 80px;
+  color: red;
+}

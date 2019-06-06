@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Setting Window</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <form>
+        <label for="sentence">追加する文章</label><br>
+        <textarea id="sentence" rows="5" cols="40" v-model="newItem"></textarea>
+        <br>
+        <label for="picture">追加する画像</label><br>
+        <input type="file" id="picture">
+        <button @click.prevent="addItem">決定</button>
+      </form>
+
+      <p><a href="datas.html" target="_blank">データ一覧</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="settings.js"></script>
+  </body>
+
+</html>
