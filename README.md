@@ -18,10 +18,10 @@
 `npm i electron-packager --save-dev`  
 `electron-packager XXXへのパス PhotoFrame --platform=darwin --arch=x64 --electronVersion=1.4.13`
 
-上記のコマンドを実行すると`PhotoFrame-darwin-x64`というディレクトリが作られるので  
-そのディレクトリを`Downloads`ディレクトリに移動していただきます。  
-そして、そのディレクトリの中の`PhotoFrame.app`を実行していただくとアプリが起動できます。
+上記のコマンドを実行すると`PhotoFrame-darwin-x64`というディレクトリが作られるので
+そのディレクトリを`Downloads`ディレクトリに移動してください。 
+そして、そのディレクトリの中の`PhotoFrame.app`をダブルクリックしていただくとアプリが実行できます。
 
 ### アプリの画像ディレクトリをに画像を追加する方法
-`getFile.command`を実行していただくと  
-`Downloads`ディレクトリ内に含まれるすべての`.jpg`ファイルと`.png`ファイルがアプリの画像ディレクトリに追加されます。
+`getFile.command`を実行していただくと`Downloads`ディレクトリ内に含まれるすべての`.jpg`ファイルと`.png`ファイルがアプリの画像ディレクトリに追加されます。
+尚、新たな画像をアプリの画像ディレクトリに入れたい場合は、同様に`getFile.command`を実行してください。
